@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 100px;
+    display: flex;
+    
+}
+.li2{
+    color: orange;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 77px;
+    position: absolute;
+    width: 738px;
+    height: 80px;
+    right: 45px;
+    list-style: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 246px;
+ }
+.baniere2{
+    position: absolute;
+    width: 1440px;
+    height: 619px;
+    left: 0px;
+    top: -1px;
+}
+.titre{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.title{ 
+    color: aliceblue;
+}
+.li1{
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Shadows Into Light', cursive;
+}
+.baniere1{ 
+    background-image: url(v1_42.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.nospizza{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.card{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+.bordure{
+    border: orange solid;
+    padding:10px
+}
+.pizza {
+    font-size: xx-large;
+}
+.dlrs{
+    font-size: xx-large;
+}
+.button{
+    padding: 12px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.cb{
+    text-align: end;
+}
+.burger{
+    width: 377px;
+    height: 213px;
+}
+.nosburger{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.nossalades{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.hr{
+    color: black;
+    margin: 30px 200px 30px 200px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    margin: 3%;
+}
+.after{
+    width: 40%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
